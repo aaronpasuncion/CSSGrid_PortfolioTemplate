@@ -1,0 +1,47 @@
+{
+  "name": "gridcss_portfoliotemplate",
+  "version": "1.0.0",
+  "description": "Portfolio Template Created using CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "GridCSS_PortfolioTemplate"
+  },
+  "keywords": [
+    "aaronpasuncion",
+    "aaron",
+    "asuncion",
+    "html",
+    "html5",
+    "css",
+    "css3",
+    "scss",
+    "sass",
+    "javascript",
+    "jquery",
+    "git",
+    "npm",
+    "node",
+    "js",
+    "grid",
+    "template",
+    "layout",
+    "design",
+    "front-end",
+    "front",
+    "end",
+    "development",
+    "developer",
+    "web",
+    "junior",
+    "intermediate"
+  ],
+  "author": "Aaron Asuncion",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
