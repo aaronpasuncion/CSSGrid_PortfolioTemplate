@@ -15,18 +15,20 @@
     <div class="site-wrapper">
       <header class="main-header">
         <h1 class="logo "><a href="">AA</a></h1>
-        <!-- <ul class="main-nav flex">
-          <li><a href="" class="nav-link">Skills</a></li>
-          <li><a href="" class="nav-link">Projects</a></li>
-          <li><a href="" class="nav-link">Contact</a></li>
-        </ul> -->
+        <ul class="main-nav">
+          <li><a href="#about" class="nav-link">About me</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experiences" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
         <div class="nav-lines" id="open-overlay">
           <div class="nav-line"></div>
           <div class="nav-line"></div>
           <div class="nav-line"></div>
         </div>
       </header>
-      <div class="flex flex-center flex-col about-me">
+      <div class="flex flex-center flex-col about-me" id="about">
         <h1>Aaron Asuncion</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit,
@@ -37,43 +39,41 @@
         </p>
         <div class="icon"></div>
       </div>
-      <div class="skills-section">
-        <div class="skills-content">
-          <h2>Skills</h2>
-          <div class="flex flex-center flex-col back-end-skills skill-box">
-            <h3>Back-end Developer</h3>
-            <p class="secondary-text skill-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              reprehenderit quisquam eaque hic aut optio adipisci quod incidunt
-              esse nemo.
-            </p>
-            <h4 class="skill-subheader">Languages:</h4>
-            <p class="secondary-text">laravel</p>
-            <h4 class="skill-subheader">My Tools:</h4>
-            <ul class="flex flex-center flex-col tools secondary-text">
-              <li>MySQL</li>
-              <li>Microsoft Server SQL</li>
-            </ul>
-          </div>
-          <div class="flex flex-center flex-col front-end-skills skill-box">
-            <h3>Front-end Developer</h3>
-            <p class="secondary-text skill-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              reprehenderit quisquam eaque hic aut optio adipisci quod incidunt
-              esse nemo.
-            </p>
-            <h4 class="skill-subheader">Languages:</h4>
-            <p class="secondary-text">HTML, CSS, JavaScript</p>
-            <h4 class="skill-subheader">My Tools:</h4>
-            <ul class="flex flex-center flex-col tools secondary-text">
-              <li>ReactJS</li>
-              <li>Github</li>
-              <li>VSCode</li>
-            </ul>
-          </div>
+      <div class="skills-section" id="skills">
+        <h2>Skills</h2>
+        <div class="flex flex-center flex-col back-end-skills skill-box">
+          <h3>Back-end Developer</h3>
+          <p class="secondary-text skill-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            reprehenderit quisquam eaque hic aut optio adipisci quod incidunt
+            esse nemo.
+          </p>
+          <h4 class="skill-subheader">Languages:</h4>
+          <p class="secondary-text">laravel</p>
+          <h4 class="skill-subheader">My Tools:</h4>
+          <ul class="flex flex-center flex-col tools secondary-text">
+            <li>MySQL</li>
+            <li>Microsoft Server SQL</li>
+          </ul>
+        </div>
+        <div class="flex flex-center flex-col front-end-skills skill-box">
+          <h3>Front-end Developer</h3>
+          <p class="secondary-text skill-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            reprehenderit quisquam eaque hic aut optio adipisci quod incidunt
+            esse nemo.
+          </p>
+          <h4 class="skill-subheader">Languages:</h4>
+          <p class="secondary-text">HTML, CSS, JavaScript</p>
+          <h4 class="skill-subheader">My Tools:</h4>
+          <ul class="flex flex-center flex-col tools secondary-text">
+            <li>ReactJS</li>
+            <li>Github</li>
+            <li>VSCode</li>
+          </ul>
         </div>
       </div>
-      <div class="projects-section">
+      <div class="projects-section" id="projects">
         <div class="section-header">
           <h2>Projects</h2>
           <p>Have a look at some of the rolled-out projects I'm proud of</p>
@@ -81,7 +81,7 @@
         <img src="" alt="" class="project-img" id="proj-img-one" />
         <div class="project-desc" id="proj-desc-one">
           <h3>Project One</h3>
-          <p>
+          <p class="secondary-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sequi
             sint iure totam dignissimos? Ratione!
           </p>
@@ -90,19 +90,93 @@
         <img src="" alt="" class="project-img" id="proj-img-two" />
         <div class="project-desc" id="proj-desc-two">
           <h3>Project Two</h3>
-          <p>
+          <p class="secondary-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sequi
             sint iure totam dignissimos? Ratione!
           </p>
           <a href="" class="link">View project</a>
         </div>
       </div>
+      <div class="jump-to-contact">
+        <h1>Want to work together?</h1>
+        <p>
+          If you like my work and want to get in touch with me with a project
+          you want to work on feel free to send me a message.
+        </p>
+        <a href="#contact" class="contact-btn">Contact Me</a>
+      </div>
+    </div>
+    <div class="experiences-section" id="experiences">
+      <div class="section-header">
+        <h1>Experience</h1>
+      </div>
+      <div class="flex flex-center experience-box">
+        <div class="flex flex-center year">
+          <h3>2015</h3>
+        </div>
+        <div class="flex flex-col experience-desc">
+          <h2>School</h2>
+          <p class="secondary-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur iusto voluptatum ducimus.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-center experience-box">
+        <div class="flex flex-center year">
+          <h3>2016</h3>
+        </div>
+        <div class="flex flex-col experience-desc">
+          <h2>School</h2>
+          <p class="secondary-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur iusto voluptatum ducimus.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-center experience-box">
+        <div class="flex flex-center year">
+          <h3>2017</h3>
+        </div>
+        <di-v class="flex flex-col experience-desc">
+          <h2>Job</h2>
+          <p class="secondary-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur iusto voluptatum ducimus.
+          </p>
+        </div>
+      
+      <div class="flex flex-center experience-box">
+        <div class="flex flex-center year">
+          <h3>2018</h3>
+        </div>
+        <div class="flex flex-col experience-desc">
+          <h2>Job</h2>
+          <p class="secondary-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur iusto voluptatum ducimus.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-center experience-box">
+        <div class="flex flex-center year">
+          <h3>2019</h3>
+        </div>
+        <div class="flex flex-col experience-desc">
+          <h2>Job</h2>
+          <p class="secondary-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur iusto voluptatum ducimus.
+          </p>
+        </div>
+      </div>
+    </div>
     </div>
     <footer class="main-footer">
-      <div class="contact-section">
+      <div class="contact-section" id="contact">
         <div class="contact-header">
           <h2>Want to Discuss?</h2>
-          <p>
+          <p class="secondary-text">
             If you're interested in hiring me feel free to send me message!
           </p>
         </div>
@@ -114,10 +188,11 @@
         <div class="footer-links">
           <h2>Aaron Asuncion</h2>
           <ul class="footer-nav">
-            <li><a href="" class="footer-link">About Me</a></li>
-            <li><a href="" class="footer-link">Skills</a></li>
-            <li><a href="" class="footer-link">Projects</a></li>
-            <li><a href="" class="footer-link">Contact</a></li>
+            <li><a href="#about" class="footer-link">About Me</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#experience" class="footer-link">Experience</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
           </ul>
           <span>&copy; Created by Aaron Asuncion</span>
         </div>
@@ -125,10 +200,12 @@
     </footer>
     <div class="nav-overlay flex flex-col hidden" id="overlay">
       <h1 class="logo "><a href="">AA</a></h1>
-      <ul class="flex flex-center flex-col">
-        <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+      <ul class="flex flex-center flex-col" id="overlay-nav">
+        <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#experiences" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
     </div>
     <script src="js/main.js"></script>
