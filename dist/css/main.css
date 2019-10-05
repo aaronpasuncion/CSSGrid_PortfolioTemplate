@@ -44,17 +44,6 @@ body {
       margin: 0 0.5em; }
       .main-header .main-nav .nav-link:hover {
         color: #9966ff; }
-    .main-header .main-nav .media-link {
-      color: blue;
-      align-self: center;
-      padding: 0.25em 0.5em;
-      border: 1px solid blue;
-      border-radius: 50%;
-      margin-left: 0.5em;
-      transition: 0.5s all ease-out; }
-      .main-header .main-nav .media-link:hover {
-        background: blue;
-        color: #fff; }
 
 .about-me {
   grid-column: 1/5;
@@ -347,6 +336,20 @@ p {
   transition: visibility 0s 0.25s, opacity 0.25s ease-out; }
 
 /* COMPONENTS */
+.media-link {
+  color: #5499c7;
+  align-self: center;
+  padding: 0.5em 0.65em;
+  border: 1px solid #5499c7;
+  border-radius: 50%;
+  margin-left: 0.5em;
+  transition: 0.5s all ease-out; }
+  .media-link:hover {
+    background: #5499c7;
+    color: #fff; }
+  .media-link .fab {
+    font-size: 1.1em; }
+
 .flex {
   display: flex; }
 

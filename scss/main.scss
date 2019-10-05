@@ -52,19 +52,6 @@ body {
         color: #9966ff;
       }
     }
-    .media-link {
-      color: blue;
-      align-self: center;
-      padding: 0.25em 0.5em;
-      border: 1px solid blue;
-      border-radius: 50%;
-      margin-left: 0.5em;
-      transition: 0.5s all ease-out;
-      &:hover {
-        background: blue;
-        color: #fff;
-      }
-    }
   }
 }
 
@@ -432,6 +419,22 @@ p {
 }
 
 /* COMPONENTS */
+.media-link {
+  color: #5499c7;
+  align-self: center;
+  padding: 0.5em 0.65em;
+  border: 1px solid #5499c7;
+  border-radius: 50%;
+  margin-left: 0.5em;
+  transition: 0.5s all ease-out;
+  &:hover {
+    background: #5499c7;
+    color: #fff;
+  }
+  .fab {
+    font-size: 1.1em;
+  }
+}
 
 .flex {
   display: flex;
