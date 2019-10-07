@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Portfolio Template Created using CSS Grid",
   "main": "index.js",
+  "homepage": "https://aaronpasuncion.github.io/CSSGrid_PortfolioTemplate",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -42,6 +44,7 @@
   "author": "Aaron Asuncion",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0"
   },
   "devDependencies": {
