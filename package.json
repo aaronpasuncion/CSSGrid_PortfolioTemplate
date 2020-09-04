@@ -45,7 +45,7 @@
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.1.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2"
